@@ -20,7 +20,7 @@ public class BankClient {
             System.out.println("\nEnter the UserName:");
             String s = br.readLine();
             System.out.println("\nEnter the Account Number:");
-            int ac = Integer.parseInt(br.readLine());
+            long ac = Long.parseLong(br.readLine());
             System.out.println("\nEnter the Initial Amount:");
             int amt = Integer.parseInt(br.readLine());
             do {
